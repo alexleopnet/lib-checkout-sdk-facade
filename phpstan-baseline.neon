@@ -61,26 +61,6 @@ parameters:
 			path: src/Provider/WebToPay/Adapter/PaymentRedirectRequestNormalizer.php
 
 		-
-			message: "#^Method Paysera\\\\CheckoutSdk\\\\Provider\\\\WebToPay\\\\Adapter\\\\PaymentValidationResponseNormalizer\\:\\:denormalize\\(\\) has parameter \\$providerResponse with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Provider/WebToPay/Adapter/PaymentValidationResponseNormalizer.php
-
-		-
-			message: "#^Method Paysera\\\\CheckoutSdk\\\\Provider\\\\WebToPay\\\\Adapter\\\\PaymentValidationResponseNormalizer\\:\\:getOrderFromProviderResponse\\(\\) has parameter \\$providerResponse with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Provider/WebToPay/Adapter/PaymentValidationResponseNormalizer.php
-
-		-
-			message: "#^Method Paysera\\\\CheckoutSdk\\\\Provider\\\\WebToPay\\\\Adapter\\\\PaymentValidationResponseNormalizer\\:\\:getProviderProperty\\(\\) has no return type specified\\.$#"
-			count: 1
-			path: src/Provider/WebToPay/Adapter/PaymentValidationResponseNormalizer.php
-
-		-
-			message: "#^Method Paysera\\\\CheckoutSdk\\\\Provider\\\\WebToPay\\\\Adapter\\\\PaymentValidationResponseNormalizer\\:\\:getProviderProperty\\(\\) has parameter \\$providerResponse with no value type specified in iterable type array\\.$#"
-			count: 1
-			path: src/Provider/WebToPay/Adapter/PaymentValidationResponseNormalizer.php
-
-		-
 			message: "#^Method Paysera\\\\CheckoutSdk\\\\Service\\\\TranslatableLogoInterface\\:\\:getLogos\\(\\) return type with generic class Paysera\\\\CheckoutSdk\\\\Entity\\\\Collection\\\\TranslationCollection does not specify its types\\: Translation$#"
 			count: 1
 			path: src/Service/TranslatableLogoInterface.php
