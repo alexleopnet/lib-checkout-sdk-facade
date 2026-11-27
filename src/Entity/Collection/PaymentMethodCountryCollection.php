@@ -12,7 +12,7 @@ use Paysera\CheckoutSdk\Entity\PaymentMethodCountry;
  *
  * @method PaymentMethodCountryCollection<PaymentMethodCountry> filter(callable $filterFunction)
  * @method void append(PaymentMethodCountry $value)
- * @method PaymentMethodCountry|null get(int $index = null)
+ * @method PaymentMethodCountry|null get(?int $index = null)
  */
 class PaymentMethodCountryCollection extends Collection
 {
