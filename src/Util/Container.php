@@ -44,7 +44,7 @@ class Container implements ContainerInterface
         return $this->instances[$id];
     }
 
-    public function set(string $id, object $concrete = null): void
+    public function set(string $id, ?object $concrete = null): void
     {
         $this->instances[$id] = $concrete;
     }

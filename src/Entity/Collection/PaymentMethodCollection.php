@@ -12,7 +12,7 @@ use Paysera\CheckoutSdk\Entity\PaymentMethod;
  *
  * @method PaymentMethodCollection<PaymentMethod> filter(callable $filterFunction)
  * @method void append(PaymentMethod $value)
- * @method PaymentMethod|null get(int $index = null)
+ * @method PaymentMethod|null get(?int $index = null)
  */
 class PaymentMethodCollection extends Collection
 {

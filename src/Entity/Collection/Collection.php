@@ -99,7 +99,7 @@ abstract class Collection implements Iterator, Countable
      * @return ItemInterface|null
      * @param null|int $index
      */
-    public function get(int $index = null)
+    public function get(?int $index = null)
     {
         return $this->array[$index ?? $this->position] ?? null;
     }

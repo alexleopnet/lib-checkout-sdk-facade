@@ -12,7 +12,7 @@ use Paysera\CheckoutSdk\Entity\Translation;
  *
  * @method TranslationCollection<Translation> filter(callable $filterFunction)
  * @method void append(Translation $value)
- * @method Translation|null get(int $index = null)
+ * @method Translation|null get(?int $index = null)
  */
 class TranslationCollection extends Collection
 {

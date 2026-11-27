@@ -12,7 +12,7 @@ use Paysera\CheckoutSdk\Validator\RequestValidatorInterface;
  *
  * @method RequestValidatorCollection<RequestValidatorInterface> filter(callable $filterFunction)
  * @method void append(RequestValidatorInterface $value)
- * @method RequestValidatorInterface|null get(int $index = null)
+ * @method RequestValidatorInterface|null get(?int $index = null)
  */
 class RequestValidatorCollection extends Collection
 {
