@@ -19,7 +19,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## 0.2.5 - 2025-07-25
 
-- Upgraded `webtopay/libwebtopay` to v3.1.3
+- Updated the locked `webtopay/libwebtopay` version to v3.1.3; the constraint stays `^3.1`
 - Added the `ss3` signature (RSA with SHA-256) to `PaymentCallbackValidationRequest`
 
 ## 0.2.4 - 2025-01-21
